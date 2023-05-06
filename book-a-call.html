@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Book a call</title>
+		<meta charset="UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- <style>body{opacity: 0;}</style> -->
+		<link rel="stylesheet" href="css/style.min.css?_v=20230506112158" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<a href="/petrong/index.html" class="header__logo">
+						<img src="img/logo.svg" alt="Logo" />
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="/petrong/about.html" class="menu__link">ABOUT</a></li>
+								<li class="menu__item"><a href="/petrong/portfolio.html" class="menu__link">PORTFOLIO</a></li>
+								<li class="menu__item"><a href="/petrong/product.html" class="menu__link">PRODUCT</a></li>
+								<li class="menu__item"><a href="/petrong/expertise.html" class="menu__link">EXPERTISE</a></li>
+								<li class="menu__item"><a href="/petrong/contact.html" class="menu__link">CONTACT</a></li>
+								<li class="menu__item"><a href="/petrong/blog.html" class="menu__link">BLOG</a></li>
+							</ul>
+						</nav>
+					</div>
+					<button type="button" class="header__icon icon-menu"><span></span></button>
+				</div>
+			</header>
+
+			<main class="book-a-call">
+				<section data-watch class="book-a-call__header header-book-a-call">
+					<div class="header-book-a-call__container">
+						<svg data-watch data-watch-once class="header-book-a-call__svg svg" width="735" height="619" viewBox="0 0 735 619" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1 1C63.1819 36.6131 -15 63.7608 47.452 71.6525C86.4308 76.578 111.077 104.177 118.52 123.472C123.341 133.752 141.349 151.228 174.808 138.892C216.631 123.472 230.781 163.917 228.266 181.359C225.75 198.801 196.82 218.265 182.355 194.756C167.89 171.248 163.802 155.828 204.052 149.762C244.303 143.695 239.901 242.279 326.062 251.126C412.224 259.974 352.274 387.116 405.364 361.51C472.973 328.901 455.823 379.158 492.637 341.368C511.34 322.17 474.93 294.748 448.274 298.457C421.001 302.252 539.645 533.453 633.464 587.626C778.555 671.404 737.497 539.393 689.497 530.051C641.497 520.71 552.447 583.249 563.72 618"
+								stroke="#00D285"
+								stroke-width="2"
+							/>
+						</svg>
+						<div class="header-book-a-call__content section-content">
+							<h1 class="section-content__title suptitle suptitle_2 suptitle_animate">Book a call</h1>
+							<div class="section-content__text text_animate">
+								<p>Select a suitable time slot and have a face-to-face video call with a project manager to discuss your needs.</p>
+							</div>
+						</div>
+						<div class="header-book-a-call__image-block _slide-left-animation">
+							<div class="header-book-a-call__image-ibg">
+								<picture
+									><source srcset="img/book-a-call/header.webp" type="image/webp" />
+									<img src="img/book-a-call/header.jpg" alt="Photo with phone"
+								/></picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="book-a-call__bottom bottom-book-a-call">
+					<div class="bottom-book-a-call__container">
+						<div class="bottom-book-a-call__details call-details">
+							<div class="call-details__body">
+								<img class="call-details__logo" src="img/logo.svg" alt="Logo" />
+								<h3 class="call-details__label">30 Minute Meeting</h3>
+								<div class="call-details__text text">Web conferencing details provided upon confirmation.</div>
+								<div class="call-details__when text _icon-date"><span>Tuesday, December, 3:00 AM</span></div>
+							</div>
+						</div>
+						<form action="#" class="bottom-book-a-call__form form-call">
+							<div class="form-call__top">
+								<div class="form-call__options options-call">
+									<label class="options-call__label">Month</label>
+									<div id="months" class="options-call__value">
+										<select class="months" data-show-selected name="form[]" data-class-modif="form-call">
+											<option value="1">January</option>
+											<option value="2">February</option>
+											<option value="3">March</option>
+											<option value="4" selected>April</option>
+											<option value="5">May</option>
+											<option value="6">June</option>
+											<option value="7">July</option>
+											<option value="8">August</option>
+											<option value="9">September</option>
+											<option value="10">October</option>
+											<option value="11">Novembre</option>
+											<option value="12">December</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-call__options options-call">
+									<label class="options-call__label">Day</label>
+									<div class="options-call__value">
+										<select class="days" data-show-selected name="form[]" data-class-modif="form-call">
+											<option value="1" selected>Monday</option>
+											<option value="2">Tuesday</option>
+											<option value="3">Wednesday</option>
+											<option value="4">Thursday</option>
+											<option value="5">Friday</option>
+											<option value="6">Saturday</option>
+											<option value="7">Sunday</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-call__options options-call">
+									<label class="options-call__label">Time</label>
+									<input type="time" name="form[]" min="09:00" value="13:30" max="18:00" required />
+								</div>
+							</div>
+							<div class="form-call__inputs">
+								<div class="form-call__input input-form-call">
+									<label class="input-form-call__label">Name</label>
+									<input autocomplete="off" data-validate data-required="name" type="text" name="form[]" data-error="Enter your name please" class="input-form-call__input" />
+								</div>
+								<div class="form-call__input input-form-call">
+									<label class="input-form-call__label">Email Address</label>
+									<input autocomplete="off" data-validate data-required="email" type="email" name="form[]" data-error="Enter a valid e-mail please" placeholder="" class="input-form-call__input" />
+								</div>
+								<div class="form-call__input input-form-call">
+									<label class="input-form-call__label">Please share the topics you would like to discuss. That will help us prepare for our meeting. *</label>
+									<textarea data-validate data-required data-error="Enter some text please" name="input-form-call__message"></textarea>
+								</div>
+							</div>
+							<button type="submit" class="form-call__button button">Schedule Meeting</button>
+						</form>
+					</div>
+				</section>
+				<section data-watch class="page__cta cta-section">
+					<div class="cta-section__container">
+						<div class="cta-section__content">
+							<h2 class="cta-section__title title_animate">Do you have a next level-idea?</h2>
+							<div class="cta-section__subtitle subtitle_animate">Reach out and we can create magic together</div>
+						</div>
+						<a href="#!" class="cta-section__button button _animate">WORK WITH US</a>
+					</div>
+				</section>
+				<div class="fixed-elements">
+					<div class="fixed-elements__chat chat-window _hidden">
+						<div class="chat-window__header header-chat">
+							<div class="header-chat__body">
+								<div class="header-chat__avatar">
+									<picture
+										><source srcset="img/chat/avatars/rasheed.webp" type="image/webp" />
+										<img src="img/chat/avatars/rasheed.jpg" alt="Chat assistant avatar"
+									/></picture>
+								</div>
+								<div class="header-chat__content">
+									<div class="header-chat__name">Rasheed</div>
+									<div class="header-chat__status">Online</div>
+								</div>
+							</div>
+							<button type="button" class="header-chat__button-close"></button>
+						</div>
+						<div class="chat-window__body">
+							<div class="chat-window__anchor"></div>
+						</div>
+						<div class="chat-window__bottom">
+							<input id="user-input" autocomplete="off" type="text" name="form[]" placeholder="Write a message" class="chat-window__input" />
+							<button id="send-button" type="button" class="chat-window__send-button _icon-paper-plane"></button>
+						</div>
+					</div>
+					<div class="fixed-elements__buttons">
+						<a href="#" class="fixed-elements__button fixed-elements__button_scroll _icon-top-arrow"></a>
+						<button type="button" class="fixed-elements__button fixed-elements__button_chat _icon-chat"></button>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div data-spollers="600, max" class="footer__top">
+						<div class="footer__item item-footer">
+							<button type="button" data-spoller class="item-footer__label">QUICK LINKS</button>
+							<div class="item-footer__block">
+								<div class="item-footer__body">
+									<ul class="item-footer__list">
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Home</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">About</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Projects</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Contact</a>
+										</li>
+									</ul>
+									<ul class="item-footer__list">
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Blog</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Our Policy</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Career</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__item item-footer">
+							<button type="button" data-spoller class="item-footer__label">OUR SERVICES</button>
+							<div class="item-footer__block">
+								<div class="item-footer__body">
+									<ul class="item-footer__list">
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Web Development</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Digital Product Design</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Cloud/DevOps</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Mobile Applications</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Dedicated Development Team</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__item item-footer">
+							<button type="button" data-spoller class="item-footer__label">OUR TECHNOLOGIES</button>
+							<div class="item-footer__block">
+								<div class="item-footer__body">
+									<ul class="item-footer__list">
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Laravel Development</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">React JS App Development</a>
+										</li>
+										<li class="item-footer__item-list">
+											<a href="" class="item-footer__item-link">Vue JS App Development</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="contact" class="footer__item item-footer">
+							<button type="button" data-spoller class="item-footer__label">CONTACT & FOLLOW US</button>
+							<div class="item-footer__block">
+								<div class="item-footer__body">
+									<div class="item-footer__socials">
+										<a href="!#" class="item-footer__social _icon-linkedin"></a>
+										<a href="!#" class="item-footer__social _icon-instagram"></a>
+										<a href="!#" class="item-footer__social _icon-facebook"></a>
+										<a href="!#" class="item-footer__social _icon-youtube"></a>
+									</div>
+									<a href="tel:+23408000000000" class="item-footer__phone _icon-phone-call"
+										>Phone:
+										<span>
+											<nobr>(234)0800-000-0000</nobr>
+										</span></a
+									>
+									<a href="mailto:info@petrongsolutuons.com" class="item-footer__mail _icon-email"
+										>E-mail:
+										<span>
+											<nobr>info@petrongsolutuons.com</nobr>
+										</span>
+									</a>
+									<a href="/petrong/index.html" class="item-footer__logo">
+										<img src="img/logo.svg" alt="Logo" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy">Petrong Software Solution Copyright 2022 - All Right Reserved</div>
+				</div>
+			</footer>
+		</div>
+		<script src="js/app.min.js?_v=20230506112158"></script>
+	</body>
+</html>
